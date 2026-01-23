@@ -38,11 +38,11 @@ iMac14,4 & Macmini7,1 = BigSur -> Montorey<br>
 ## 🛠️ Instructions
 1. **SMBIOS:** 
 Generate your own Mac Devices (https://github.com/corpnewt/GenSMBIOS)<br>
-a) SystemProductName	x3	L.614, 621, 644.<br>
-b) SystemSerialNumber	x4	L.623, 646, 663, 718.<br>
-c) SystemUUID			x4	L.620, 625, 648, 665.<br>
-d) MLB					x2	L.638, 661.<br>
-e) ROM					x2	L.632, 659.<br>
+a) SystemProductName	x3	Line.614, 621, 644.<br>
+b) SystemSerialNumber	x4	Line.623, 646, 663, 718.<br>
+c) SystemUUID			x4	Line.620, 625, 648, 665.<br>
+d) MLB					x2	Line.638, 661.<br>
+e) ROM					x2	Line.632, 659.<br>
 * PASTE SMBIOS to ChatGPT and ask him to generate basic Config.plist<br>
 
 2. Ethernet KEXT (https://github.com/Mieze/RTL8111_driver_for_OS_X)
