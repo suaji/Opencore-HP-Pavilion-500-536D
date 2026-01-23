@@ -59,8 +59,10 @@ e) ROM					x2	L.632, 659.
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="https://image-url-1.png" width="45%" />
   <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c03680382.png" width="45%" />
+  <img src="https://image-url-1.png" width="45%" />
+  <img src="https://image-url-1.png" width="45%" />
+  <img src="https://image-url-1.png" width="45%" />
 </p>
 
 ---
