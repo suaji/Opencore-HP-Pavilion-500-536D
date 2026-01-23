@@ -29,9 +29,9 @@ iMac14,4 & Macmini7,1 = BigSur -> Montorey
 ## ❌ Not Working
 * [ ] MacOS Catalina (failed install)
 * [ ] [Built-in Wifi (Mini PCIE]
-      - Tested with USB TP-Link TL-WN725
-	  - ELCapitan-Mojave  (https://www.tp-link.com/my/support/download/tl-wn725n/)
-	  - BigSur-Montorey (https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)
+**- Tested with USB TP-Link TL-WN725
+**- ELCapitan-Mojave  (https://www.tp-link.com/my/support/download/tl-wn725n/)
+**- BigSur-Montorey (https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)
 
 ---
 
@@ -45,7 +45,7 @@ d) MLB					x2	L.638, 661.
 e) ROM					x2	L.632, 659.
 * PASTE SMBIOS to ChatGPT and ask him to generate basic Config.plist
 
-2. Ethernet KEXT ()
+2. Ethernet KEXT (https://github.com/Mieze/RTL8111_driver_for_OS_X)
 * El-Capitan RealtekRTL8111.kext v2.2.1
 * High Sierra RealtekRTL8111.kext v2.2.2
 * Big Sur-Mojave RealtekRTL8111.kext v3.0.0
@@ -60,9 +60,9 @@ e) ROM					x2	L.632, 659.
 ## 📸 Screenshots
 <p align="center">
   <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c03680382.png" width="45%" />
-  <img src="https://image-url-1.png" width="45%" />
-  <img src="https://image-url-1.png" width="45%" />
-  <img src="https://image-url-1.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/suaji/Opencore-HP-Pavilion-500-536D/refs/heads/main/Screenshots/El-Capitan.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/suaji/Opencore-HP-Pavilion-500-536D/refs/heads/main/Screenshots/HighSierra.png" width="45%" />
+  <img src="https://raw.githubusercontent.com/suaji/Opencore-HP-Pavilion-500-536D/refs/heads/main/Screenshots/Mojave.png" width="45%" />
 </p>
 
 ---
