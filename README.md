@@ -7,4 +7,64 @@ iMac14,2 = ElCapitan -> Mojave
 iMac14,4 & Macmini7,1 = BigSur -> Montorey
 * Montorey with OCLP
 ** Catalina bug (failed install)
->>>>>>> c7dfda65b99f59baed5fed258f7c1cdb85f69f24
+
+---
+
+## 💻 System Specs
+* **CPU:** [Intel Core i5-4160]
+* **iGPU:** [Intel HD Graphics 4400]
+* **RAM:** [4GB DDR3]
+* **OpenCore Version:** [1.0.6.] NOV 2025
+
+---
+
+## ✅ What's Working?
+* [x] HD Graphics
+* [x] Audio [alcid=13]
+* [x] Ethernet
+* [x] PowerOff / Reboot
+* [x] USB Ports (Mapped)
+* [x] iMessage & FaceTime
+
+## ❌ Not Working
+* [ ] MacOS Catalina (failed install)
+* [ ] [Built-in Wifi (Mini PCIE]
+      - Tested with USB TP-Link TL-WN725
+	  - ELCapitan-Mojave  (https://www.tp-link.com/my/support/download/tl-wn725n/)
+	  - BigSur-Montorey (https://github.com/chris1111/Wireless-USB-OC-Big-Sur-Adapter)
+
+---
+
+## 🛠️ Instructions
+1. **SMBIOS:** 
+Generate your own Mac Devices (https://github.com/corpnewt/GenSMBIOS)
+a) SystemProductName	x3	L.614, 621, 644.
+b) SystemSerialNumber	x4	L.623, 646, 663, 718.
+c) SystemUUID			x4	L.620, 625, 648, 665.
+d) MLB					x2	L.638, 661.
+e) ROM					x2	L.632, 659.
+* PASTE SMBIOS to ChatGPT and ask him to generate basic Config.plist
+
+2. Ethernet KEXT ()
+* El-Capitan RealtekRTL8111.kext v2.2.1
+* High Sierra RealtekRTL8111.kext v2.2.2
+* Big Sur-Mojave RealtekRTL8111.kext v3.0.0
+
+3. **BIOS Settings:** - **Disable:** Secure Boot, CFG-Lock, VT-d, Fast Boot.
+   - **Enable:** AHCI, UEFI, VT-x.
+   
+4. Copy the EFI folder to your ESP (EFI System Partition) after finish Setup macOS.
+
+---
+
+## 📸 Screenshots
+<p align="center">
+  <img src="https://image-url-1.png" width="45%" />
+  <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c03680382.png" width="45%" />
+</p>
+
+---
+
+## Credits
+* [Acidanthera](https://github.com/acidanthera) for OpenCore.
+* [Dortania](https://dortania.github.io/OpenCore-Install-Guide/) for the guide.
