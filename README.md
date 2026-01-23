@@ -2,7 +2,7 @@
 This repository contains the OpenCore EFI folder for HP Pavilion 500-536D
 (HEWLETT-PACKARD 500-536D)<br>
 
-Running macOS [ElCapitan - Montorey].
+Running macOS [ElCapitan - Montorey].<br>
 iMac14,2 = ElCapitan -> Mojave<br>
 iMac14,4 & Macmini7,1 = BigSur -> Montorey<br>
 * Montorey with OCLP<br>
@@ -37,21 +37,21 @@ iMac14,4 & Macmini7,1 = BigSur -> Montorey<br>
 
 ## 🛠️ Instructions
 1. **SMBIOS:** 
-Generate your own Mac Devices (https://github.com/corpnewt/GenSMBIOS)
-a) SystemProductName	x3	L.614, 621, 644.
-b) SystemSerialNumber	x4	L.623, 646, 663, 718.
-c) SystemUUID			x4	L.620, 625, 648, 665.
-d) MLB					x2	L.638, 661.
-e) ROM					x2	L.632, 659.
-* PASTE SMBIOS to ChatGPT and ask him to generate basic Config.plist
+Generate your own Mac Devices (https://github.com/corpnewt/GenSMBIOS)<br>
+a) SystemProductName	x3	L.614, 621, 644.<br>
+b) SystemSerialNumber	x4	L.623, 646, 663, 718.<br>
+c) SystemUUID			x4	L.620, 625, 648, 665.<br>
+d) MLB					x2	L.638, 661.<br>
+e) ROM					x2	L.632, 659.<br>
+* PASTE SMBIOS to ChatGPT and ask him to generate basic Config.plist<br>
 
 2. Ethernet KEXT (https://github.com/Mieze/RTL8111_driver_for_OS_X)
 * El-Capitan RealtekRTL8111.kext v2.2.1
 * High Sierra RealtekRTL8111.kext v2.2.2
 * Big Sur-Mojave RealtekRTL8111.kext v3.0.0
 
-3. **BIOS Settings:** - **Disable:** Secure Boot, CFG-Lock, VT-d, Fast Boot.
-   - **Enable:** AHCI, UEFI, VT-x.
+3. **BIOS Settings:** - **Disable:** Secure Boot, CFG-Lock, VT-d, Fast Boot.<br>
+   - **Enable:** AHCI, UEFI, VT-x.<br>
    
 4. Copy the EFI folder to your ESP (EFI System Partition) after finish Setup macOS.
 
