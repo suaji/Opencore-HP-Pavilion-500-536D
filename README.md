@@ -63,11 +63,13 @@ e) ROM					x2	Line.632, 659.<br>
 
 ## 📸 Screenshots
 <p align="center">
-  <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c03680382.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/suaji/Opencore-HP-Pavilion-500-536D/refs/heads/main/Screenshots/El-Capitan.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/suaji/Opencore-HP-Pavilion-500-536D/refs/heads/main/Screenshots/HighSierra.png" width="45%" />
-  <img src="https://raw.githubusercontent.com/suaji/Opencore-HP-Pavilion-500-536D/refs/heads/main/Screenshots/Mojave.png" width="45%" />
+  <img src="https://ssl-product-images.www8-hp.com/digmedialib/prodimg/lowres/c03680382.png" width="50%" height="70%" />
 </p>
+<br>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/suaji/Opencore-HP-Pavilion-500-536D/refs/heads/main/Neofetch.png" width="50%" height="70%" />
+</p>
+<br>
 
 ---
 
