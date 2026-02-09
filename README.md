@@ -1,10 +1,9 @@
 
-This repository contains the OpenCore EFI folder for HP Pavilion 500-536D
-(HEWLETT-PACKARD 500-536D)<br>
+This repository contains the OpenCore EFI folder for HP Pavilion 500-536D<br>
 
 Running macOS [ElCapitan - Montorey].<br>
-iMac14,2 = ElCapitan -> Mojave<br>
-iMac14,4 & Macmini7,1 = BigSur -> Montorey<br>
+iMac14,2 & iMac14,4 = ElCapitan -> Mojave<br>
+iMac15,1 & Macmini7,1 = BigSur -> Montorey<br>
 * Montorey with OCLP<br>
 ** Catalina bug (failed install)<br>
 

@@ -1,0 +1,71 @@
+{
+    "Motherboard": {
+        "Name": "HEWLETT-PACKARD 500-536D",
+        "Chipset": "H87",
+        "Platform": "Desktop"
+    },
+    "BIOS": {
+        "Version": "80.05",
+        "Release Date": "2015-02-05",
+        "System Type": "x64-based",
+        "Firmware Type": "UEFI",
+        "Secure Boot": "Disabled"
+    },
+    "CPU": {
+        "Manufacturer": "Intel",
+        "Processor Name": "Intel(R) Core(TM) i3-4160",
+        "Codename": "Haswell",
+        "Core Count": "01",
+        "CPU Count": "01",
+        "SIMD Features": "SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, AVX, AVX2"
+    },
+    "GPU": {
+        "Microsoft Basic Display Adapter": {
+            "Manufacturer": "Intel",
+            "Codename": "Haswell",
+            "Device ID": "8086-041E",
+            "Device Type": "Integrated GPU",
+            "Subsystem ID": "2B2C103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x2,0x0)",
+            "ACPI Path": "\\_SB.PCI0.GFX0",
+            "Resizable BAR": "Disabled"
+        }
+    },
+    "Monitor": {
+        "HP LV1911": {
+            "Connector Type": "Uninitialized",
+            "Resolution": "1366x1024",
+            "Connected GPU": "Microsoft Basic Display Adapter"
+        }
+    },
+    "Network": {
+        "Realtek PCIe GBE Family Controller #2": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-8168",
+            "Subsystem ID": "2B2C103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x6)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP07.PXSX"
+        },
+        "Realtek RTL8188EE 802.11 b/g/n Wi-Fi Adapter": {
+            "Bus Type": "PCI",
+            "Device ID": "10EC-8179",
+            "Subsystem ID": "197D103C",
+            "PCI Path": "PciRoot(0x0)/Pci(0x1c,0x5)/Pci(0x0,0x0)",
+            "ACPI Path": "\\_SB.PCI0.RP06.PXSX"
+        }
+    },
+    "Sound": {
+        "High Definition Audio Device": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "10EC-0662",
+            "Subsystem ID": "103C2B2C",
+            "Controller Device ID": "8086-8C20"
+        },
+        "Intel(R) Display Audio": {
+            "Bus Type": "HDAUDIO",
+            "Device ID": "8086-2807",
+            "Subsystem ID": "80860101",
+            "Controller Device ID": "8086-0C0C"
+        }
+    },
+}
